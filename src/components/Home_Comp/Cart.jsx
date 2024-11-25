@@ -12,6 +12,7 @@ const Cart = ({ heading, categories }) => {
       >
         {categories.map((category, index) => (
           <Link key={index}>{category}</Link>
+          
         ))}
       </ul>
     </div>
