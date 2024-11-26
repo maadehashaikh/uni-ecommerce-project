@@ -8,11 +8,10 @@ const Cart = ({ heading, categories }) => {
       </h1>
       <ul
         className="flex items-center justify-center gap-3 text-[18px] 
-      font-serif mb-[-12px]"
+      font-serif mb-[-13px]"
       >
         {categories.map((category, index) => (
           <Link key={index}>{category}</Link>
-          
         ))}
       </ul>
     </div>
