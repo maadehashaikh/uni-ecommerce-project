@@ -25,6 +25,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        {/* end div */}
 
         {/* Column 2 */}
         <div>
